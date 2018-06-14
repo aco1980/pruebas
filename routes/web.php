@@ -43,7 +43,6 @@ Route::get('/prueba',function()
 
 Route::post('/guardaruser','UsuariosController@GuardarUser'); 
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
